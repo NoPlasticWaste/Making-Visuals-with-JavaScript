@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <body>
+        <canvas width="600" height="600"> </canvas>
+
+        <script>
+            let x = 4;
+            let sentence = 'Hello';
+
+            function saySomething(param) {
+                console.log(param);
+            }
+
+            saySomething(sentence);
+
+            function add(a,b) {
+                return a + b;
+            }
+            let result = add(5, 7);
+            console.log(result);
+
+            let multiply = (a,b) => {
+                return a * b;
+            }
+            console.log(multiply(5,7));
+
+            let years = [2040, 2041, 2041];
+            let menu = ['starter', 'main', 'dessert', 'drinks'];
+
+            for (let i = 0; i < menu.length; i++) {
+                console.log(menu[i]);
+            }
+
+            let empty = []
+            for (let i = 0; i < 10; i++) {
+                empty.push(2040 + i);
+            }
+            console.log(empty);
+
+        </script>
+    </body>
+</html>
